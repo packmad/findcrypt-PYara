@@ -1,8 +1,11 @@
+#!/usr/bin/env python3
+
 import argparse
 import json
 import os
 import sys
 import yara
+
 from os.path import abspath, join, isfile, realpath, dirname, isdir
 from typing import Dict, List, Optional
 from tqdm import tqdm
